@@ -33,3 +33,13 @@ class Person {
 
 // Function Export
 module.exports = Person
+
+
+
+// Another Solution
+
+class Person {
+  constructor(name, age) {
+    this.info = `${name}s age is ${age}`;
+  }
+}
