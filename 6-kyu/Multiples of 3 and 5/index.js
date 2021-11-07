@@ -30,3 +30,7 @@ function solution(number) {
 
 // Function Export
 module.exports = solution
+
+// Another Solution
+solution= n=> n<=0?0:Array.from({length: n}, (_,i) => (i%3==0||i%5==0)?i:0).reduce((x,y)=>x+y)
+
