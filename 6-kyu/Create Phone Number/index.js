@@ -31,3 +31,8 @@ function createPhoneNumber(numbers) {
 
 // Function Export
 module.exports = createPhoneNumber
+
+//  Another Solution
+function createPhoneNumber(numbers){
+   return numbers.reduce((p,c) => p.replace('x',c), "(xxx) xxx-xxxx");
+}
