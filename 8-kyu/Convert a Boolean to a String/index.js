@@ -38,3 +38,8 @@ const booleanToString = b => `${b}`
 
 // Function Export
 module.exports = booleanToString
+
+// another Solution 
+function booleanToString(b){
+  return b.toString();
+}
